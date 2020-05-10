@@ -1,0 +1,16 @@
+package com.example.microServices.currencyexchangeservice;
+
+import java.math.BigDecimal;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyExchangeController {
+	@RequestMapping("/Currency-exchange/from/{from}/to/{to}")
+
+
+public ExchangeValue retrieveExchangeValue(@PathVariable String from,)
+{
+		return new ExchangeValue(100L,from,to,BigDecimal.valueOf(65));
+}
+}

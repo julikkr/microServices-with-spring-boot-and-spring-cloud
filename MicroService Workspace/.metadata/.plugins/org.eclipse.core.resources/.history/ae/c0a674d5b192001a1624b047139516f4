@@ -1,0 +1,10 @@
+package com.example.microServices.currencyconversionservice;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@FeignClient(name= "currency-exchange-service",url="localhost:8000")
+public interface CurrencyExchangeServiceProxy {
+	@GetMapping("/Currency-exchange/from/{from}/to/{to}")
+	
+}

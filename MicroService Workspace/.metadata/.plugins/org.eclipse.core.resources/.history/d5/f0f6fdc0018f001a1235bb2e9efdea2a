@@ -1,0 +1,11 @@
+package com.example.microServices.currencyexchangeservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyExchangeController {
+	@RequestMapping("/Currency-exchange/from/{from}/to/{to}")
+
+
+public ExchangeValue
+}

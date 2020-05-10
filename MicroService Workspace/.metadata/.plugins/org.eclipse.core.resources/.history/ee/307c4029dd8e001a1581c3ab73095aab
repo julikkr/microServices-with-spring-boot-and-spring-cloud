@@ -1,0 +1,12 @@
+package com.example.microServices.limitsservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LimitsConfigurationController {
+
+	public LimitConfiguration retriveLimitsConfigurations()
+	{
+		
+	}
+}

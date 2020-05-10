@@ -1,0 +1,4 @@
+spring.application.name=limits-service
+limits-service.mimimum=78
+limits-service.maximum=999
+server.port = 8040

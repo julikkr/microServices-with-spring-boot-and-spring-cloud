@@ -1,0 +1,14 @@
+package com.example.microServices.netflixzuulapiserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@EnableZuulProxy
+@EnableDiscoveryClient
+@SpringBootApplication
+public class NetflixZuulApiServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NetflixZuulApiServerApplication.class, args);
+	}
+
+}

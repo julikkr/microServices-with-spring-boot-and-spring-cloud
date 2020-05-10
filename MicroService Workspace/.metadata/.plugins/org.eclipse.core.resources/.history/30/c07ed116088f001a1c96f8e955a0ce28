@@ -1,0 +1,6 @@
+insert into exhange_value(id,Exchange_from,Exchange_to,conversion_multiple)
+values(1001,'USD','INR',65);
+insert into exhange_value(id,Exchange_from,Exchange_to,conversion_multiple)
+values(1002,'USD','EN',25);
+insert into exhange_value(id,Exchange_from,Exchange_to,conversion_multiple)
+values(1003,'EN','INR',75);

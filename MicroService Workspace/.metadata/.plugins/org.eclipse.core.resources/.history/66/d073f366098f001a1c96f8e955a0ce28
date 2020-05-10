@@ -1,0 +1,5 @@
+package com.example.microServices.currencyexchangeservice;
+
+public interface ExchangeValueRepository extends jpaRepository<ExchangeValueRepository{
+
+}

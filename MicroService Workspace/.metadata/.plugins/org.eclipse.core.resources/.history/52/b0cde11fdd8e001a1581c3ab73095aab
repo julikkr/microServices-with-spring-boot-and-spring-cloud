@@ -1,0 +1,6 @@
+package com.example.microServices.limitsservice;
+
+@RestController
+public class LimitsConfigurationController {
+
+}

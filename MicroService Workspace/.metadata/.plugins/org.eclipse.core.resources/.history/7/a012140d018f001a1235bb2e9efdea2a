@@ -1,0 +1,6 @@
+package com.example.microServices.currencyexchangeservice;
+
+@RestController
+public class CurrencyExchangeController {
+
+}

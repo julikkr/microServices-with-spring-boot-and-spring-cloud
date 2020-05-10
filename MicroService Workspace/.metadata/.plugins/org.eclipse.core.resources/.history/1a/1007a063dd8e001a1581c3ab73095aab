@@ -1,0 +1,8 @@
+package com.example.microServices.limitsservice.bean;
+
+public class LimitConfiguration {
+
+	private int minimum;
+	private int maximum;
+	
+}
